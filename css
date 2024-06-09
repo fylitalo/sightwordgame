@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+header {
+    background-color: #20b2aa;
+    padding: 10px;
+    text-align: center;
+}
+header h1 {
+    color: #fff;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+#game-area {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#scene {
+    flex-grow: 1;
+    background-image: url('safari-background.jpg');
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+#side-panel {
+    width: 200px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+#side-panel h2 {
+    margin-top: 0;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #20b2aa;
+}
+footer button {
+    margin: 0 5px;
