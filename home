@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sight Word Safari</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sight Word Safari</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Play</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="game-area">
+        <div id="level-info">Level 1</div>
+        <div id="scene">
+            <!-- Background image and hidden words -->
+        </div>
+        <div id="side-panel">
+            <h2>Find These Words:</h2>
+            <ul id="word-list">
+                <li>the</li>
+                <li>of</li>
+                <!-- More words -->
+            </ul>
+            <button id="hint-button">Hint</button>
+            <div id="timer">Time: 60s</div>
+        </div>
+    </main>
+    <footer>
+        <button id="pause-button">Pause</button>
+        <button id="restart-button">Restart</button>
+        <button id="exit-button">Exit</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
